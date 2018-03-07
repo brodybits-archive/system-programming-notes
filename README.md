@@ -74,6 +74,13 @@ Some application stacks using system programming:
 - Cordova
 - Jasonette to build native Android and iOS apps using JSON
 
+## Bridging
+
+- N-API (Node.js, etc.)
+- Nan (C++ wrapper for Node.js addons)
+- libffi
+- Cordova
+
 ## Virtualization
 
 - VMs
