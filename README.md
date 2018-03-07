@@ -135,6 +135,14 @@ Other resources:
 - <https://software.intel.com/en-us/forums/intel-c-compiler/topic/534769>
 - <http://cpgotchas.blogspot.com/2008/02/sizet-ptrdifft-and-offt.html>
 
+## WebAssembly
+
+**WebAssembly vs LLVM IR format:**
+
+- <https://github.com/WebAssembly/design/issues/188> - discussion of why WebAssembly does not share the same binary format with LLVM
+
+Additional: WebAssembly may be designed to better capture loops than LLVM IR.
+
 ## Storage
 
 Non-replicated:
