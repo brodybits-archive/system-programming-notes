@@ -111,11 +111,13 @@ Undefined behavior in C:
 - <http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html>
 - <https://blog.regehr.org/archives/213>
 
-### ptrdiff_t
+### storing pointers as integers
 
-As taught in a Safer C (<http://www.saferc.com/>) course (Eindhoven, NL in September 2011):
+Best to use `intptr_t` and `uintptr_t`, now standardized for C and C++.
 
-In C and C++ `ptrdiff_t` is the safest way to convert between pointers and integer values. NULL is usually but NOT required to be `(void *)(0)`. To convert pointer to `ptrdiff_t`:
+**`ptrdiff_t` (alt):** as taught in a Safer C (<http://www.saferc.com/>) course (Eindhoven, NL in September 2011):
+
+In C and C++ `ptrdiff_t` ~~is~~ _was_ the safest way to convert between pointers and integer values. NULL is usually but NOT required to be `(void *)(0)`. To convert pointer to `ptrdiff_t`:
 
     ptrdiff_t mydiff = (unsigned char *)myptr - (unsigned char *)NULL;
 
