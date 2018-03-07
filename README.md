@@ -26,11 +26,12 @@ General types of software, with limited overlap:
 
 General ref: <https://en.wikipedia.org/wiki/Programmer>
 
-Additional:
+Additional (various levels of overlap):
 - Embedded programming is generally a subset of systems programming.
 - Game programming (possible overlap with system programming)
 - Scalable software (overlap with other areas)
 - Financial software (using languages such as C++ to achieve competitive efficiency)
+- machine learning, neural networks, and other forms of AI
 
 ## Kinds of system software
 
