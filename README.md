@@ -74,6 +74,15 @@ Limited:
 - Python
 - JavaScript
 
+## Embedded scripting
+
+- <http://jsish.org/> - small but powerful JavaScript interpreter (seems to use ref. counting)
+- Duktape
+- JerryScript
+- others from <https://github.com/dbohdan/embedded-scripting-languages>
+- ROOT CINT C/C++ interpreter
+- Cling C++ interpreter
+
 ## Application stacks
 
 Some application stacks using system programming:
