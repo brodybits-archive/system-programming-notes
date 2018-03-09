@@ -17,6 +17,14 @@ Major characteristics:
 - needs careful resource management
 - not always easy to debug
 
+## Gotchas
+
+Important gotchas include:
+
+- Undefined behavior (see references below)
+- Compound computational complexity (<https://dev.to/supermanitu/what-does-big-o-notation-mean-anyway--1hea>)
+- compound software system complexity
+
 ## Comparison
 
 General types of software, with limited overlap:
@@ -104,7 +112,7 @@ Some application stacks using system programming:
 
 ### Undefined behavior
 
-Undefined behavior in C:
+Undefined behavior in C and C++:
 
 - <https://hackernoon.com/so-you-think-you-know-c-8d4e2cd6f6a6>
 - <https://kukuruku.co/post/i-do-not-know-c/>
@@ -168,3 +176,4 @@ Some recommended resources:
 - <http://www.modernescpp.com/index.php/requirements-of-embedded-programming>
 - <http://www.modernescpp.com/index.php/component/jaggyblog/objectoriented-generic-and-functional-programming>
 - <http://www.saferc.com/> (book and training)
+- <http://www.databorough.com/Five-Reasons-to-Measure-the-Complexity-of-Your-Software.html>
