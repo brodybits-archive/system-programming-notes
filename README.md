@@ -101,9 +101,17 @@ Some application stacks using system programming:
 
 ## Virtualization
 
+General:
+
 - VMs
 - LLVM
 - Web assembly (revolutionary)
+- Eclipse J9
+
+Projects:
+
+- <https://github.com/jakogut/tinyvm>
+- <https://github.com/rabbitvm/rabbit>
 
 ## Transpilers
 
@@ -112,6 +120,13 @@ Some application stacks using system programming:
 ## Middleware
 
 - OpenMQ, Zero MQ, etc.
+
+## Awesome lists
+
+- <https://github.com/aleksandar-todorovic/awesome-c>
+- <https://github.com/fffaraz/awesome-cpp>
+- <https://github.com/rigtorp/awesome-modern-cpp>
+- <https://github.com/uhub/awesome-cpp>
 
 ## Tools
 
