@@ -112,6 +112,7 @@ Projects:
 
 - <https://github.com/jakogut/tinyvm>
 - <https://github.com/rabbitvm/rabbit>
+- <https://github.com/zerovm/zerovm>
 
 ## Transpilers
 
